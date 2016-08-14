@@ -4,6 +4,7 @@ import org.junit.Test;
 
 /*
  * 方法二 加了个index  用作排序的序号
+ * 测试方法类
  */
 public class TestIndex {
 	@Index(value=1)

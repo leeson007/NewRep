@@ -4,6 +4,7 @@ package Junit;
  * 执行方法排序的方法二
  * 比较复杂，写一次就够了
  * 以后直接用就可以了
+ * 函数方法
  */
 import java.util.Collections;
 import java.util.Comparator;

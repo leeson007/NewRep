@@ -7,7 +7,7 @@ import org.junit.runners.MethodSorters;
 /*
  * 测试方法的执行 顺序
  * 方法一：如下
- * 方法二：
+ * 方法二：index
  */
 @FixMethodOrder(value=MethodSorters.NAME_ASCENDING)//不同的值，有不同的顺序方法 JVM，NAME_ASCENDING...
 public class FixMethodOrderDemo {
