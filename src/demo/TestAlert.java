@@ -16,20 +16,20 @@ public class TestAlert {
 	@Test
 	public void test(){
 		/*
-		 * »ñÈ¡js´°¿Ú£¬µã»÷È·ÈÏ°´Å¥£¬»ñÈ¡µ¯´°ÄÚÈİ£¬ÉèÖÃ¶ÏÑÔ
+		 * è·å–jsçª—å£ï¼Œç‚¹å‡»ç¡®è®¤æŒ‰é’®ï¼Œè·å–å¼¹çª—å†…å®¹ï¼Œè®¾ç½®æ–­è¨€
 		 */
 		WebDriver driver = new FirefoxDriver();
 		driver.get("a url who have alert element");
 		WebElement alert = driver.findElement(By.id("alert"));
 		alert.click();
 		Alert temp = driver.switchTo().alert();// Send future commands to a different frame or window
-		temp.accept();//Èç¹û³¬Ê±±£³Ö£¬ÔòÉèÒ»¸ö¼ì²éµã 
+		temp.accept();//å¦‚æœè¶…æ—¶ä¿æŒï¼Œåˆ™è®¾ä¸€ä¸ªæ£€æŸ¥ç‚¹ 
 		String content = temp.getText();
 		assertTrue(content.equals("something"));
 			
 	}
 	/*
-	 * »ñÈ¡ĞÂ´°¿Ú ½øĞĞ²Ù×÷
+	 * è·å–æ–°çª—å£ è¿›è¡Œæ“ä½œ
 	 */
 	@Test
 	public void testwindow(){
@@ -50,4 +50,4 @@ public class TestAlert {
 		}
 		
 	}
-}
+}//i want to fuck you
